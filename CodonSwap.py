@@ -12,7 +12,7 @@ __author__ = "Justin R. Klesmith"
 __copyright__ = "Copyright 2015, Justin R. Klesmith"
 __credits__ = ["Justin R. Klesmith", "Timothy A. Whitehead"]
 __license__ = "BSD-3"
-__version__ = "0.1, Build: 20150919"
+__version__ = "0.2, Build: 20151006"
 __maintainer__ = "Justin R. Klesmith"
 __email__ = ["klesmit3@msu.edu", "justinklesmith@gmail.com", "justinklesmith@evodyn.com"]
 
@@ -46,21 +46,21 @@ Codon_Table = {'TTT':'F', 'TCT':'S', 'TAT':'Y', 'TGT':'C',
 'GTA':'V', 'GCA':'A', 'GAA':'E', 'GGA':'G',
 'GTG':'V', 'GCG':'A', 'GAG':'E', 'GGG':'G'}
 EColi_Table = {'TTT':'TTC', 'TCT':'AGC', 'TAT':'TAC', 'TGT':'TGC',
-'TTC':'TTT', 'TCC':'AGT', 'TAC':'TAT', 'TGC':'TGT',
-'TTA':'CTG', 'TCA':'TCG', 'TAA':'TAA', 'TGA':'TAA',
-'TTG':'CTT', 'TCG':'TCA', 'TAG':'TGA', 'TGG':'TGG',
-'CTT':'TTA', 'CCT':'CCC', 'CAT':'CAC', 'CGT':'CGC',
-'CTC':'TTG', 'CCC':'CCT', 'CAC':'CAT', 'CGC':'CGT',
-'CTA':'TTG', 'CCA':'CCG', 'CAA':'CAG', 'CGA':'AGA',
-'CTG':'TTA', 'CCG':'CCA', 'CAG':'CAA', 'CGG':'CGA',
-'ATT':'ATC', 'ACT':'ACA', 'AAT':'AAC', 'AGT':'TCC',
+'TTC':'TTT', 'TCC':'AGC', 'TAC':'TAT', 'TGC':'TGT',
+'TTA':'CTG', 'TCA':'AGC', 'TAA':'TAA', 'TGA':'TAA',
+'TTG':'CTG', 'TCG':'AGC', 'TAG':'TGA', 'TGG':'TGG',
+'CTT':'CTG', 'CCT':'CCG', 'CAT':'CAC', 'CGT':'CGC',
+'CTC':'CTG', 'CCC':'CCG', 'CAC':'CAT', 'CGC':'CGT',
+'CTA':'CTG', 'CCA':'CCG', 'CAA':'CAG', 'CGA':'CGT',
+'CTG':'CTG', 'CCG':'CCA', 'CAG':'CAA', 'CGG':'CGC',
+'ATT':'ATC', 'ACT':'ACC', 'AAT':'AAC', 'AGT':'AGC',
 'ATC':'ATT', 'ACC':'ACG', 'AAC':'AAT', 'AGC':'TCT',
-'ATA':'ATT', 'ACA':'ACT', 'AAA':'AAG', 'AGA':'CGA',
-'ATG':'ATG', 'ACG':'ACC', 'AAG':'AAA', 'AGG':'AGG',
-'GTT':'GTG', 'GCT':'GCA', 'GAT':'GAC', 'GGT':'GGC',
+'ATA':'ATT', 'ACA':'ACC', 'AAA':'AAA', 'AGA':'CGT',
+'ATG':'ATG', 'ACG':'ACC', 'AAG':'AAA', 'AGG':'CGC',
+'GTT':'GTG', 'GCT':'GCG', 'GAT':'GAC', 'GGT':'GGC',
 'GTC':'GTA', 'GCC':'GCG', 'GAC':'GAT', 'GGC':'GGT',
-'GTA':'GTC', 'GCA':'GCT', 'GAA':'GAG', 'GGA':'GGG',
-'GTG':'GTT', 'GCG':'GCC', 'GAG':'GAA', 'GGG':'GGA',}
+'GTA':'GTC', 'GCA':'GCG', 'GAA':'GAG', 'GGA':'GGC',
+'GTG':'GTT', 'GCG':'GCC', 'GAG':'GAA', 'GGG':'GGT',}
 
 def main():
     #Write out preamble
